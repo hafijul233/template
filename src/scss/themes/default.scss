@@ -1,0 +1,468 @@
+@import "../colors";
+
+a {
+  color: $adova_soft;
+
+  &:hover {
+    color: $adova_soft;
+  }
+
+  &:focus {
+    color: $adova_soft;
+  }
+}
+
+p {
+  &.lead {
+    color: $adova_soft;
+  }
+}
+
+.blockquote {
+  border-left: 3px solid $adova_soft;
+}
+
+code {
+  color: $adova_soft;
+}
+
+.btn {
+  &.btn-icon-style-3 {
+    &::before {
+      background: $adova_soft;
+    }
+  }
+
+  &.btn-icon-style-4 {
+    &:hover {
+      color: $adova_soft;
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: $adova_soft;
+  }
+}
+
+.select2-container--default {
+  .select2-selection--single,
+  .select2-selection--multiple {
+    &:focus {
+      border-color: $adova_soft;
+    }
+  }
+
+  &.select2-container--focus .select2-selection--multiple {
+    border: solid $adova_soft 2px;
+  }
+
+  &.select2-container--open {
+    .select2-selection--single {
+      border-color: $adova_soft;
+    }
+  }
+
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $adova_soft;
+  }
+
+  .select2-selection--multiple {
+    .select2-selection__choice {
+      background-color: $adova_soft;
+    }
+  }
+}
+
+.tinymce-wrap {
+  .mce-btn.mce-active,
+  .mce-btn:active {
+    button {
+      i {
+        color: $adova_soft !important;
+      }
+    }
+  }
+
+  .mce-btn.mce-active button, .mce-btn.mce-active:hover button, .mce-btn.mce-active i, .mce-btn.mce-active:hover i {
+    color: $adova_soft;
+  }
+}
+
+.dropify-wrapper {
+  .dropify-message span.file-icon {
+    background: $adova_soft;
+  }
+}
+
+.toggle {
+  .toggle-on, .toggle-select .toggle-inner .active {
+    background: $adova_soft;
+  }
+
+  .toggle-on {
+    &.active + .toggle-blob {
+      border-color: $adova_soft;
+    }
+  }
+}
+
+.wizard {
+  .wizard-icon-wrap {
+    &:before {
+      background: $adova_soft;
+    }
+  }
+
+  > .actions {
+    a, a:hover, a:active {
+      background: $adova_soft;
+      border: 2px solid $adova_soft;
+    }
+  }
+
+  > .steps {
+    .done {
+      a, a:hover, a:active {
+        .wizard-icon-wrap {
+          background: $adova_soft;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+  .card {
+    .card-header {
+      > a {
+        background: $adova_soft;
+      }
+    }
+  }
+
+  &.accordion-type-2 {
+    .card {
+      .card-header {
+        > a {
+          color: $adova_soft;
+        }
+      }
+    }
+  }
+}
+
+.tablesaw-bar .tablesaw-bar-section {
+  select {
+    &:focus {
+      border-color: $adova_soft;
+    }
+  }
+}
+
+.custom-checkbox {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $adova_soft;
+  }
+}
+
+.custom-radio {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $adova_soft;
+  }
+}
+
+.owl-carousel {
+  .owl-video-play-icon {
+    color: $adova_soft;
+  }
+}
+
+.pickr {
+  .pcr-app {
+    .pcr-interaction {
+      .pcr-save {
+        background: $adova_soft;;
+      }
+
+      .pcr-type.active {
+        color: $adova_soft;
+      }
+
+      .pcr-result {
+        &:focus {
+          border-color: $adova_soft;
+        }
+      }
+    }
+  }
+}
+
+.irs-bar {
+  background: $adova_soft;
+}
+
+.irs-slider {
+  background: $adova_soft;
+
+  &.state_hover, &:hover {
+    background: $adova_soft;
+  }
+}
+
+.irs-bar-edge {
+  background: $adova_soft;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: $light_10;
+
+  &:before, &:after {
+    display: none;
+  }
+
+  .drp-buttons .btn {
+    margin-left: 8px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  td {
+    &.active, &.active:hover {
+      background-color: $adova_soft;
+
+      &.available:hover {
+        background-color: $adova_soft;
+      }
+    }
+
+    &.in-range {
+      &.active, &.active:hover {
+        background-color: $adova_soft;
+      }
+    }
+  }
+
+  .ranges li {
+    &.active {
+      background-color: $adova_soft;
+    }
+  }
+}
+
+.hk-dash-type-1 {
+  .card-header {
+    .nav.nav-tabs {
+      > a.nav-item {
+        &.active {
+          .display-4 {
+            color: $adova_soft;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    &.active, &:active {
+      background-color: $adova_soft;
+    }
+  }
+}
+
+.avatar {
+  .avatar-text {
+    color: $adova_soft;
+  }
+}
+
+.pagination {
+  .page-item {
+    &.active {
+      .page-link {
+        background: $adova_soft;
+        border-color: $adova_soft;
+      }
+    }
+  }
+}
+
+.list-group-item {
+  &.active {
+    background-color: $adova_soft;
+    border-color: $adova_soft;
+  }
+}
+
+.jvectormap-goback {
+  background: $adova_soft;
+}
+
+.chatapp-wrap {
+  .chatapp-right {
+    .chat-body {
+      .media {
+        &.sent {
+          .media-body {
+            .msg-box {
+              > div {
+                background: $adova_soft;
+
+                .arrow-triangle-wrap {
+                  .arrow-triangle {
+                    background-color: $adova_soft;
+
+                    &:before, &:after {
+                      background-color: $adova_soft;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Email UI*/
+.emailapp-wrap {
+  .email-box {
+    .email-star {
+      &:hover {
+        color: $adova_soft;
+
+        > .feather-icon {
+          > svg {
+            fill: $adova_soft !important;
+
+            polygon {
+              fill: $adova_soft !important;
+            }
+          }
+        }
+      }
+
+      &.starred {
+        color: $adova_soft;
+
+        > .feather-icon {
+          > svg {
+            fill: $adova_soft !important;
+
+            polygon {
+              fill: $adova_soft !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendarapp-wrap {
+  .calendar-wrap {
+    .fc-event {
+      border: 1px solid $adova_soft;
+    }
+
+    .fc-event,
+    .fc-event-dot {
+      background: $adova_soft;
+    }
+  }
+}
+
+.hk-pg-wrapper {
+  &.hk-auth-wrapper {
+    background: $adova_soft;
+  }
+}
+
+/*************************************************************/
+/*Nav*/
+.nav {
+  &.nav-tabs {
+    .nav-link {
+      &.active {
+        border-color: $adova_soft;
+
+        &:hover, &:focus {
+          border-color: $adova_soft;
+        }
+      }
+    }
+
+    .nav-item.show .nav-link {
+      border-color: $adova_soft;
+    }
+  }
+
+  &.nav-pills {
+    .nav-link {
+      &.active {
+        background-color: $adova_soft;
+
+        &:hover, &:focus {
+        }
+      }
+
+      &:hover, &:focus {
+      }
+    }
+
+    .nav-item.show .nav-link {
+      background-color: $adova_soft;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo {
+    .input-group {
+      width: auto;
+      margin-bottom: .5rem;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        padding-right: 1rem;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+      }
+    }
+  }
+}
+
+/*Top Nav*/
+.hk-wrapper {
+  .hk-navbar {
+    &.navbar-dark {
+      background: $adova_soft;
+    }
+  }
+
+  .hk-settings-panel {
+    .settings-panel-wrap {
+      .layout-img-wrap {
+        a {
+          i {
+            background: $adova_soft;
+          }
+        }
+      }
+    }
+  }
+}

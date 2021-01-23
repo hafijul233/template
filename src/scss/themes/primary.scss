@@ -1,0 +1,467 @@
+@import "../colors";
+
+a {
+  color: $sky;
+
+  &:hover {
+    color: $sky;
+  }
+
+  &:focus {
+    color: $sky;
+  }
+}
+
+p {
+  &.lead {
+    color: $sky;
+  }
+}
+
+.blockquote {
+  border-left: 3px solid $sky;
+}
+
+code {
+  color: $sky;
+}
+
+.btn {
+  &.btn-icon-style-3 {
+    &::before {
+      background: $sky;
+    }
+  }
+
+  &.btn-icon-style-4 {
+    &:hover {
+      color: $sky;
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: $sky;
+  }
+}
+
+.select2-container--default {
+  .select2-selection--single,
+  .select2-selection--multiple {
+    &:focus {
+      border-color: $sky;
+    }
+  }
+
+  &.select2-container--focus .select2-selection--multiple {
+    border: solid $sky 2px;
+  }
+
+  &.select2-container--open {
+    .select2-selection--single {
+      border-color: $sky;
+    }
+  }
+
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $sky;
+  }
+
+  .select2-selection--multiple {
+    .select2-selection__choice {
+      background-color: $sky;
+    }
+  }
+}
+
+.tinymce-wrap {
+  .mce-btn.mce-active,
+  .mce-btn:active {
+    button {
+      i {
+        color: $sky !important;
+      }
+    }
+  }
+
+  .mce-btn.mce-active button, .mce-btn.mce-active:hover button, .mce-btn.mce-active i, .mce-btn.mce-active:hover i {
+    color: $sky;
+  }
+}
+
+.dropify-wrapper {
+  .dropify-message span.file-icon {
+    background: $sky;
+  }
+}
+
+.toggle {
+  .toggle-on, .toggle-select .toggle-inner .active {
+    background: $sky;
+  }
+
+  .toggle-on {
+    &.active + .toggle-blob {
+      border-color: $sky;
+    }
+  }
+}
+
+.wizard {
+  .wizard-icon-wrap {
+    &:before {
+      background: $sky;
+    }
+  }
+
+  > .actions {
+    a, a:hover, a:active {
+      background: $sky;
+      border: 2px solid $sky;
+    }
+  }
+
+  > .steps {
+    .done {
+      a, a:hover, a:active {
+        .wizard-icon-wrap {
+          background: $sky;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+  .card {
+    .card-header {
+      > a {
+        background: $sky;
+      }
+    }
+  }
+
+  &.accordion-type-2 {
+    .card {
+      .card-header {
+        > a {
+          color: $sky;
+        }
+      }
+    }
+  }
+}
+
+.tablesaw-bar .tablesaw-bar-section {
+  select {
+    &:focus {
+      border-color: $sky;
+    }
+  }
+}
+
+.custom-checkbox {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $sky;
+  }
+}
+
+.custom-radio {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $sky;
+  }
+}
+
+.owl-carousel {
+  .owl-video-play-icon {
+    color: $sky;
+  }
+}
+
+.pickr {
+  .pcr-app {
+    .pcr-interaction {
+      .pcr-save {
+        background: $sky;;
+      }
+
+      .pcr-type.active {
+        color: $sky;
+      }
+
+      .pcr-result {
+        &:focus {
+          border-color: $sky;
+        }
+      }
+    }
+  }
+}
+
+.irs-bar {
+  background: $sky;
+}
+
+.irs-slider {
+  background: $sky;
+
+  &.state_hover, &:hover {
+    background: $sky;
+  }
+}
+
+.irs-bar-edge {
+  background: $sky;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: $light_10;
+
+  &:before, &:after {
+    display: none;
+  }
+
+  .drp-buttons .btn {
+    margin-left: 8px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  td {
+    &.active, &.active:hover {
+      background-color: $sky;
+
+      &.available:hover {
+        background-color: $sky;
+      }
+    }
+
+    &.in-range {
+      &.active, &.active:hover {
+        background-color: $sky;
+      }
+    }
+  }
+
+  .ranges li {
+    &.active {
+      background-color: $sky;
+    }
+  }
+}
+
+.hk-dash-type-1 {
+  .card-header {
+    .nav.nav-tabs {
+      > a.nav-item {
+        &.active {
+          .display-4 {
+            color: $sky;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    &.active, &:active {
+      background-color: $sky;
+    }
+  }
+}
+
+.avatar {
+  .avatar-text {
+    color: $sky;
+  }
+}
+
+.pagination {
+  .page-item {
+    &.active {
+      .page-link {
+        background: $sky;
+        border-color: $sky;
+      }
+    }
+  }
+}
+
+.list-group-item {
+  &.active {
+    background-color: $sky;
+    border-color: $sky;
+  }
+}
+
+.jvectormap-goback {
+  background: $sky;
+}
+
+.chatapp-wrap {
+  .chatapp-right {
+    .chat-body {
+      .media {
+        &.sent {
+          .media-body {
+            .msg-box {
+              > div {
+                background: $sky;
+
+                .arrow-triangle-wrap {
+                  .arrow-triangle {
+                    background-color: $sky;
+
+                    &:before, &:after {
+                      background-color: $sky;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Email UI*/
+.emailapp-wrap {
+  .email-box {
+    .email-star {
+      &:hover {
+        color: $sky;
+
+        > .feather-icon {
+          > svg {
+            fill: $sky !important;
+
+            polygon {
+              fill: $sky !important;
+            }
+          }
+        }
+      }
+
+      &.starred {
+        color: $sky;
+
+        > .feather-icon {
+          > svg {
+            fill: $sky !important;
+
+            polygon {
+              fill: $sky !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendarapp-wrap {
+  .calendar-wrap {
+    .fc-event {
+      border: 1px solid $sky;
+    }
+
+    .fc-event,
+    .fc-event-dot {
+      background: $sky;
+    }
+  }
+}
+
+.hk-pg-wrapper {
+  &.hk-auth-wrapper {
+    background: $sky;
+  }
+}
+
+/*Nav*/
+.nav {
+  &.nav-tabs {
+    .nav-link {
+      &.active {
+        border-color: $sky;
+
+        &:hover, &:focus {
+          border-color: $sky;
+        }
+      }
+    }
+
+    .nav-item.show .nav-link {
+      border-color: $sky;
+    }
+  }
+
+  &.nav-pills {
+    .nav-link {
+      &.active {
+        background-color: $sky;
+
+        &:hover, &:focus {
+        }
+      }
+
+      &:hover, &:focus {
+      }
+    }
+
+    .nav-item.show .nav-link {
+      background-color: $sky;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo {
+    .input-group {
+      width: auto;
+      margin-bottom: .5rem;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        padding-right: 1rem;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+      }
+    }
+  }
+}
+
+/*Top Nav*/
+.hk-wrapper {
+  .hk-navbar {
+    &.navbar-dark {
+      background: $sky;
+    }
+  }
+
+  .hk-settings-panel {
+    .settings-panel-wrap {
+      .layout-img-wrap {
+        a {
+          i {
+            background: $sky;
+          }
+        }
+      }
+    }
+  }
+}

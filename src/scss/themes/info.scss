@@ -1,0 +1,466 @@
+@import "../colors";
+
+a {
+  color: $cyan;
+
+  &:hover {
+    color: $cyan;
+  }
+
+  &:focus {
+    color: $cyan;
+  }
+}
+
+p {
+  &.lead {
+    color: $cyan;
+  }
+}
+
+.blockquote {
+  border-left: 3px solid $cyan;
+}
+
+code {
+  color: $cyan;
+}
+
+.btn {
+  &.btn-icon-style-3 {
+    &::before {
+      background: $cyan;
+    }
+  }
+
+  &.btn-icon-style-4 {
+    &:hover {
+      color: $cyan;
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: $cyan;
+  }
+}
+
+.select2-container--default {
+  .select2-selection--single,
+  .select2-selection--multiple {
+    &:focus {
+      border-color: $cyan;
+    }
+  }
+
+  &.select2-container--focus .select2-selection--multiple {
+    border: solid $cyan 2px;
+  }
+
+  &.select2-container--open {
+    .select2-selection--single {
+      border-color: $cyan;
+    }
+  }
+
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $cyan;
+  }
+
+  .select2-selection--multiple {
+    .select2-selection__choice {
+      background-color: $cyan;
+    }
+  }
+}
+
+.tinymce-wrap {
+  .mce-btn.mce-active,
+  .mce-btn:active {
+    button {
+      i {
+        color: $cyan !important;
+      }
+    }
+  }
+
+  .mce-btn.mce-active button, .mce-btn.mce-active:hover button, .mce-btn.mce-active i, .mce-btn.mce-active:hover i {
+    color: $cyan;
+  }
+}
+
+.dropify-wrapper {
+  .dropify-message span.file-icon {
+    background: $cyan;
+  }
+}
+
+.toggle {
+  .toggle-on, .toggle-select .toggle-inner .active {
+    background: $cyan;
+  }
+
+  .toggle-on {
+    &.active + .toggle-blob {
+      border-color: $cyan;
+    }
+  }
+}
+
+.wizard {
+  .wizard-icon-wrap {
+    &:before {
+      background: $cyan;
+    }
+  }
+
+  > .actions {
+    a, a:hover, a:active {
+      background: $cyan;
+      border: 2px solid $cyan;
+    }
+  }
+
+  > .steps {
+    .done {
+      a, a:hover, a:active {
+        .wizard-icon-wrap {
+          background: $cyan;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+  .card {
+    .card-header {
+      > a {
+        background: $cyan;
+      }
+    }
+  }
+
+  &.accordion-type-2 {
+    .card {
+      .card-header {
+        > a {
+          color: $cyan;
+        }
+      }
+    }
+  }
+}
+
+.tablesaw-bar .tablesaw-bar-section {
+  select {
+    &:focus {
+      border-color: $cyan;
+    }
+  }
+}
+
+.custom-checkbox {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $cyan;
+  }
+}
+
+.custom-radio {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $cyan;
+  }
+}
+
+.owl-carousel {
+  .owl-video-play-icon {
+    color: $cyan;
+  }
+}
+
+.pickr {
+  .pcr-app {
+    .pcr-interaction {
+      .pcr-save {
+        background: $cyan;;
+      }
+
+      .pcr-type.active {
+        color: $cyan;
+      }
+
+      .pcr-result {
+        &:focus {
+          border-color: $cyan;
+        }
+      }
+    }
+  }
+}
+
+.irs-bar {
+  background: $cyan;
+}
+
+.irs-slider {
+  background: $cyan;
+
+  &.state_hover, &:hover {
+    background: $cyan;
+  }
+}
+
+.irs-bar-edge {
+  background: $cyan;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: $light_10;
+
+  &:before, &:after {
+    display: none;
+  }
+
+  .drp-buttons .btn {
+    margin-left: 8px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  td {
+    &.active, &.active:hover {
+      background-color: $cyan;
+
+      &.available:hover {
+        background-color: $cyan;
+      }
+    }
+
+    &.in-range {
+      &.active, &.active:hover {
+        background-color: $cyan;
+      }
+    }
+  }
+
+  .ranges li {
+    &.active {
+      background-color: $cyan;
+    }
+  }
+}
+
+.hk-dash-type-1 {
+  .card-header {
+    .nav.nav-tabs {
+      > a.nav-item {
+        &.active {
+          .display-4 {
+            color: $cyan;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    &.active, &:active {
+      background-color: $cyan;
+    }
+  }
+}
+
+.avatar {
+  .avatar-text {
+    color: $cyan;
+  }
+}
+
+.pagination {
+  .page-item {
+    &.active {
+      .page-link {
+        background: $cyan;
+        border-color: $cyan;
+      }
+    }
+  }
+}
+
+.list-group-item {
+  &.active {
+    background-color: $cyan;
+    border-color: $cyan;
+  }
+}
+
+.jvectormap-goback {
+  background: $cyan;
+}
+
+.chatapp-wrap {
+  .chatapp-right {
+    .chat-body {
+      .media {
+        &.sent {
+          .media-body {
+            .msg-box {
+              > div {
+                background: $cyan;
+
+                .arrow-triangle-wrap {
+                  .arrow-triangle {
+                    background-color: $cyan;
+
+                    &:before, &:after {
+                      background-color: $cyan;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Email UI*/
+.emailapp-wrap {
+  .email-box {
+    .email-star {
+      &:hover {
+        color: $cyan;
+
+        > .feather-icon {
+          > svg {
+            fill: $cyan !important;
+
+            polygon {
+              fill: $cyan !important;
+            }
+          }
+        }
+      }
+
+      &.starred {
+        color: $cyan;
+
+        > .feather-icon {
+          > svg {
+            fill: $cyan !important;
+
+            polygon {
+              fill: $cyan !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendarapp-wrap {
+  .calendar-wrap {
+    .fc-event {
+      border: 1px solid $cyan;
+    }
+
+    .fc-event,
+    .fc-event-dot {
+      background: $cyan;
+    }
+  }
+}
+
+.hk-pg-wrapper {
+  &.hk-auth-wrapper {
+    background: $cyan;
+  }
+}
+/*Nav*/
+.nav {
+  &.nav-tabs {
+    .nav-link {
+      &.active {
+        border-color: $cyan;
+
+        &:hover, &:focus {
+          border-color: $cyan;
+        }
+      }
+    }
+
+    .nav-item.show .nav-link {
+      border-color: $cyan;
+    }
+  }
+
+  &.nav-pills {
+    .nav-link {
+      &.active {
+        background-color: $cyan;
+
+        &:hover, &:focus {
+        }
+      }
+
+      &:hover, &:focus {
+      }
+    }
+
+    .nav-item.show .nav-link {
+      background-color: $cyan;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo {
+    .input-group {
+      width: auto;
+      margin-bottom: .5rem;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        padding-right: 1rem;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+      }
+    }
+  }
+}
+
+/*Top Nav*/
+.hk-wrapper {
+  .hk-navbar {
+    &.navbar-dark {
+      background: $cyan;
+    }
+  }
+
+  .hk-settings-panel {
+    .settings-panel-wrap {
+      .layout-img-wrap {
+        a {
+          i {
+            background: $cyan;
+          }
+        }
+      }
+    }
+  }
+}

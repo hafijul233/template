@@ -1,0 +1,267 @@
+/*__________________________________________________________________;
+[Colors]
+Project:	dashgrin
+___________________________________________________________________*/
+a {
+  color: #ffbf36;
+}
+a:hover {
+  color: #ffbf36;
+}
+a:focus {
+  color: #ffbf36;
+}
+
+p.lead {
+  color: #ffbf36;
+}
+
+.blockquote {
+  border-left: 3px solid #ffbf36;
+}
+
+code {
+  color: #ffbf36;
+}
+
+.btn.btn-icon-style-3::before {
+  background: #ffbf36;
+}
+.btn.btn-icon-style-4:hover {
+  color: #ffbf36;
+}
+
+.form-control:focus {
+  border-color: #ffbf36;
+}
+
+.select2-container--default .select2-selection--single:focus,
+.select2-container--default .select2-selection--multiple:focus {
+  border-color: #ffbf36;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: solid #ffbf36 2px;
+}
+.select2-container--default.select2-container--open .select2-selection--single {
+  border-color: #ffbf36;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #ffbf36;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #ffbf36;
+}
+
+.tinymce-wrap .mce-btn.mce-active button i,
+.tinymce-wrap .mce-btn:active button i {
+  color: #ffbf36 !important;
+}
+.tinymce-wrap .mce-btn.mce-active button, .tinymce-wrap .mce-btn.mce-active:hover button, .tinymce-wrap .mce-btn.mce-active i, .tinymce-wrap .mce-btn.mce-active:hover i {
+  color: #ffbf36;
+}
+
+.dropify-wrapper .dropify-message span.file-icon {
+  background: #ffbf36;
+}
+
+.toggle .toggle-on, .toggle .toggle-select .toggle-inner .active {
+  background: #ffbf36;
+}
+.toggle .toggle-on.active + .toggle-blob {
+  border-color: #ffbf36;
+}
+
+.wizard .wizard-icon-wrap:before {
+  background: #ffbf36;
+}
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+  background: #ffbf36;
+  border: 2px solid #ffbf36;
+}
+.wizard > .steps .done a .wizard-icon-wrap, .wizard > .steps .done a:hover .wizard-icon-wrap, .wizard > .steps .done a:active .wizard-icon-wrap {
+  background: #ffbf36;
+}
+.wizard > .steps .done a .wizard-icon-wrap i, .wizard > .steps .done a:hover .wizard-icon-wrap i, .wizard > .steps .done a:active .wizard-icon-wrap i {
+  color: #fff;
+}
+
+.accordion .card .card-header > a {
+  background: #ffbf36;
+}
+.accordion.accordion-type-2 .card .card-header > a {
+  color: #ffbf36;
+}
+
+.tablesaw-bar .tablesaw-bar-section select:focus {
+  border-color: #ffbf36;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #ffbf36;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #ffbf36;
+}
+
+.owl-carousel .owl-video-play-icon {
+  color: #ffbf36;
+}
+
+.pickr .pcr-app .pcr-interaction .pcr-save {
+  background: #ffbf36;
+}
+.pickr .pcr-app .pcr-interaction .pcr-type.active {
+  color: #ffbf36;
+}
+.pickr .pcr-app .pcr-interaction .pcr-result:focus {
+  border-color: #ffbf36;
+}
+
+.irs-bar {
+  background: #ffbf36;
+}
+
+.irs-slider {
+  background: #ffbf36;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+  background: #ffbf36;
+}
+
+.irs-bar-edge {
+  background: #ffbf36;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: #eaecec;
+}
+.daterangepicker:before, .daterangepicker:after {
+  display: none;
+}
+.daterangepicker .drp-buttons .btn {
+  margin-left: 8px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #ffbf36;
+}
+.daterangepicker td.active.available:hover, .daterangepicker td.active:hover.available:hover {
+  background-color: #ffbf36;
+}
+.daterangepicker td.in-range.active, .daterangepicker td.in-range.active:hover {
+  background-color: #ffbf36;
+}
+.daterangepicker .ranges li.active {
+  background-color: #ffbf36;
+}
+
+.hk-dash-type-1 .card-header .nav.nav-tabs > a.nav-item.active .display-4 {
+  color: #ffbf36;
+}
+
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+  background-color: #ffbf36;
+}
+
+.avatar .avatar-text {
+  color: #ffbf36;
+}
+
+.pagination .page-item.active .page-link {
+  background: #ffbf36;
+  border-color: #ffbf36;
+}
+
+.list-group-item.active {
+  background-color: #ffbf36;
+  border-color: #ffbf36;
+}
+
+.jvectormap-goback {
+  background: #ffbf36;
+}
+
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div {
+  background: #ffbf36;
+}
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle {
+  background-color: #ffbf36;
+}
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle:before, .chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle:after {
+  background-color: #ffbf36;
+}
+
+/*Email UI*/
+.emailapp-wrap .email-box .email-star:hover {
+  color: #ffbf36;
+}
+.emailapp-wrap .email-box .email-star:hover > .feather-icon > svg {
+  fill: #ffbf36 !important;
+}
+.emailapp-wrap .email-box .email-star:hover > .feather-icon > svg polygon {
+  fill: #ffbf36 !important;
+}
+.emailapp-wrap .email-box .email-star.starred {
+  color: #ffbf36;
+}
+.emailapp-wrap .email-box .email-star.starred > .feather-icon > svg {
+  fill: #ffbf36 !important;
+}
+.emailapp-wrap .email-box .email-star.starred > .feather-icon > svg polygon {
+  fill: #ffbf36 !important;
+}
+
+.calendarapp-wrap .calendar-wrap .fc-event {
+  border: 1px solid #ffbf36;
+}
+.calendarapp-wrap .calendar-wrap .fc-event,
+.calendarapp-wrap .calendar-wrap .fc-event-dot {
+  background: #ffbf36;
+}
+
+.hk-pg-wrapper.hk-auth-wrapper {
+  background: #ffbf36;
+}
+
+/*Nav*/
+.nav.nav-tabs .nav-link.active {
+  border-color: #ffbf36;
+}
+.nav.nav-tabs .nav-link.active:hover, .nav.nav-tabs .nav-link.active:focus {
+  border-color: #ffbf36;
+}
+.nav.nav-tabs .nav-item.show .nav-link {
+  border-color: #ffbf36;
+}
+.nav.nav-pills .nav-link.active {
+  background-color: #ffbf36;
+}
+.nav.nav-pills .nav-item.show .nav-link {
+  background-color: #ffbf36;
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo .input-group {
+    width: auto;
+    margin-bottom: 0.5rem;
+  }
+  .navbar-demo .navbar-nav .nav-link {
+    padding-right: 1rem;
+  }
+  .navbar-demo .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+}
+/*Top Nav*/
+.hk-wrapper .hk-navbar.navbar-dark {
+  background: #ffbf36;
+}
+.hk-wrapper .hk-settings-panel .settings-panel-wrap .layout-img-wrap a i {
+  background: #ffbf36;
+}
+
+/*# sourceMappingURL=warning.css.map */

@@ -1,0 +1,466 @@
+@import "../colors";
+
+a {
+  color: $green;
+
+  &:hover {
+    color: $green;
+  }
+
+  &:focus {
+    color: $green;
+  }
+}
+
+p {
+  &.lead {
+    color: $green;
+  }
+}
+
+.blockquote {
+  border-left: 3px solid $green;
+}
+
+code {
+  color: $green;
+}
+
+.btn {
+  &.btn-icon-style-3 {
+    &::before {
+      background: $green;
+    }
+  }
+
+  &.btn-icon-style-4 {
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: $green;
+  }
+}
+
+.select2-container--default {
+  .select2-selection--single,
+  .select2-selection--multiple {
+    &:focus {
+      border-color: $green;
+    }
+  }
+
+  &.select2-container--focus .select2-selection--multiple {
+    border: solid $green 2px;
+  }
+
+  &.select2-container--open {
+    .select2-selection--single {
+      border-color: $green;
+    }
+  }
+
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $green;
+  }
+
+  .select2-selection--multiple {
+    .select2-selection__choice {
+      background-color: $green;
+    }
+  }
+}
+
+.tinymce-wrap {
+  .mce-btn.mce-active,
+  .mce-btn:active {
+    button {
+      i {
+        color: $green !important;
+      }
+    }
+  }
+
+  .mce-btn.mce-active button, .mce-btn.mce-active:hover button, .mce-btn.mce-active i, .mce-btn.mce-active:hover i {
+    color: $green;
+  }
+}
+
+.dropify-wrapper {
+  .dropify-message span.file-icon {
+    background: $green;
+  }
+}
+
+.toggle {
+  .toggle-on, .toggle-select .toggle-inner .active {
+    background: $green;
+  }
+
+  .toggle-on {
+    &.active + .toggle-blob {
+      border-color: $green;
+    }
+  }
+}
+
+.wizard {
+  .wizard-icon-wrap {
+    &:before {
+      background: $green;
+    }
+  }
+
+  > .actions {
+    a, a:hover, a:active {
+      background: $green;
+      border: 2px solid $green;
+    }
+  }
+
+  > .steps {
+    .done {
+      a, a:hover, a:active {
+        .wizard-icon-wrap {
+          background: $green;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+  .card {
+    .card-header {
+      > a {
+        background: $green;
+      }
+    }
+  }
+
+  &.accordion-type-2 {
+    .card {
+      .card-header {
+        > a {
+          color: $green;
+        }
+      }
+    }
+  }
+}
+
+.tablesaw-bar .tablesaw-bar-section {
+  select {
+    &:focus {
+      border-color: $green;
+    }
+  }
+}
+
+.custom-checkbox {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $green;
+  }
+}
+
+.custom-radio {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $green;
+  }
+}
+
+.owl-carousel {
+  .owl-video-play-icon {
+    color: $green;
+  }
+}
+
+.pickr {
+  .pcr-app {
+    .pcr-interaction {
+      .pcr-save {
+        background: $green;;
+      }
+
+      .pcr-type.active {
+        color: $green;
+      }
+
+      .pcr-result {
+        &:focus {
+          border-color: $green;
+        }
+      }
+    }
+  }
+}
+
+.irs-bar {
+  background: $green;
+}
+
+.irs-slider {
+  background: $green;
+
+  &.state_hover, &:hover {
+    background: $green;
+  }
+}
+
+.irs-bar-edge {
+  background: $green;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: $light_10;
+
+  &:before, &:after {
+    display: none;
+  }
+
+  .drp-buttons .btn {
+    margin-left: 8px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  td {
+    &.active, &.active:hover {
+      background-color: $green;
+
+      &.available:hover {
+        background-color: $green;
+      }
+    }
+
+    &.in-range {
+      &.active, &.active:hover {
+        background-color: $green;
+      }
+    }
+  }
+
+  .ranges li {
+    &.active {
+      background-color: $green;
+    }
+  }
+}
+
+.hk-dash-type-1 {
+  .card-header {
+    .nav.nav-tabs {
+      > a.nav-item {
+        &.active {
+          .display-4 {
+            color: $green;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    &.active, &:active {
+      background-color: $green;
+    }
+  }
+}
+
+.avatar {
+  .avatar-text {
+    color: $green;
+  }
+}
+
+.pagination {
+  .page-item {
+    &.active {
+      .page-link {
+        background: $green;
+        border-color: $green;
+      }
+    }
+  }
+}
+
+.list-group-item {
+  &.active {
+    background-color: $green;
+    border-color: $green;
+  }
+}
+
+.jvectormap-goback {
+  background: $green;
+}
+
+.chatapp-wrap {
+  .chatapp-right {
+    .chat-body {
+      .media {
+        &.sent {
+          .media-body {
+            .msg-box {
+              > div {
+                background: $green;
+
+                .arrow-triangle-wrap {
+                  .arrow-triangle {
+                    background-color: $green;
+
+                    &:before, &:after {
+                      background-color: $green;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Email UI*/
+.emailapp-wrap {
+  .email-box {
+    .email-star {
+      &:hover {
+        color: $green;
+
+        > .feather-icon {
+          > svg {
+            fill: $green !important;
+
+            polygon {
+              fill: $green !important;
+            }
+          }
+        }
+      }
+
+      &.starred {
+        color: $green;
+
+        > .feather-icon {
+          > svg {
+            fill: $green !important;
+
+            polygon {
+              fill: $green !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendarapp-wrap {
+  .calendar-wrap {
+    .fc-event {
+      border: 1px solid $green;
+    }
+
+    .fc-event,
+    .fc-event-dot {
+      background: $green;
+    }
+  }
+}
+
+.hk-pg-wrapper {
+  &.hk-auth-wrapper {
+    background: $green;
+  }
+}
+/*Nav*/
+.nav {
+  &.nav-tabs {
+    .nav-link {
+      &.active {
+        border-color: $green;
+
+        &:hover, &:focus {
+          border-color: $green;
+        }
+      }
+    }
+
+    .nav-item.show .nav-link {
+      border-color: $green;
+    }
+  }
+
+  &.nav-pills {
+    .nav-link {
+      &.active {
+        background-color: $green;
+
+        &:hover, &:focus {
+        }
+      }
+
+      &:hover, &:focus {
+      }
+    }
+
+    .nav-item.show .nav-link {
+      background-color: $green;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo {
+    .input-group {
+      width: auto;
+      margin-bottom: .5rem;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        padding-right: 1rem;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+      }
+    }
+  }
+}
+
+/*Top Nav*/
+.hk-wrapper {
+  .hk-navbar {
+    &.navbar-dark {
+      background: $green;
+    }
+  }
+
+  .hk-settings-panel {
+    .settings-panel-wrap {
+      .layout-img-wrap {
+        a {
+          i {
+            background: $green;
+          }
+        }
+      }
+    }
+  }
+}

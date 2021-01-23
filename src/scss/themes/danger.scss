@@ -1,0 +1,467 @@
+@import "../colors";
+
+a {
+  color: $red;
+
+  &:hover {
+    color: $red;
+  }
+
+  &:focus {
+    color: $red;
+  }
+}
+
+p {
+  &.lead {
+    color: $red;
+  }
+}
+
+.blockquote {
+  border-left: 3px solid $red;
+}
+
+code {
+  color: $red;
+}
+
+.btn {
+  &.btn-icon-style-3 {
+    &::before {
+      background: $red;
+    }
+  }
+
+  &.btn-icon-style-4 {
+    &:hover {
+      color: $red;
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border-color: $red;
+  }
+}
+
+.select2-container--default {
+  .select2-selection--single,
+  .select2-selection--multiple {
+    &:focus {
+      border-color: $red;
+    }
+  }
+
+  &.select2-container--focus .select2-selection--multiple {
+    border: solid $red 2px;
+  }
+
+  &.select2-container--open {
+    .select2-selection--single {
+      border-color: $red;
+    }
+  }
+
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $red;
+  }
+
+  .select2-selection--multiple {
+    .select2-selection__choice {
+      background-color: $red;
+    }
+  }
+}
+
+.tinymce-wrap {
+  .mce-btn.mce-active,
+  .mce-btn:active {
+    button {
+      i {
+        color: $red !important;
+      }
+    }
+  }
+
+  .mce-btn.mce-active button, .mce-btn.mce-active:hover button, .mce-btn.mce-active i, .mce-btn.mce-active:hover i {
+    color: $red;
+  }
+}
+
+.dropify-wrapper {
+  .dropify-message span.file-icon {
+    background: $red;
+  }
+}
+
+.toggle {
+  .toggle-on, .toggle-select .toggle-inner .active {
+    background: $red;
+  }
+
+  .toggle-on {
+    &.active + .toggle-blob {
+      border-color: $red;
+    }
+  }
+}
+
+.wizard {
+  .wizard-icon-wrap {
+    &:before {
+      background: $red;
+    }
+  }
+
+  > .actions {
+    a, a:hover, a:active {
+      background: $red;
+      border: 2px solid $red;
+    }
+  }
+
+  > .steps {
+    .done {
+      a, a:hover, a:active {
+        .wizard-icon-wrap {
+          background: $red;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+  .card {
+    .card-header {
+      > a {
+        background: $red;
+      }
+    }
+  }
+
+  &.accordion-type-2 {
+    .card {
+      .card-header {
+        > a {
+          color: $red;
+        }
+      }
+    }
+  }
+}
+
+.tablesaw-bar .tablesaw-bar-section {
+  select {
+    &:focus {
+      border-color: $red;
+    }
+  }
+}
+
+.custom-checkbox {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $red;
+  }
+}
+
+.custom-radio {
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $red;
+  }
+}
+
+.owl-carousel {
+  .owl-video-play-icon {
+    color: $red;
+  }
+}
+
+.pickr {
+  .pcr-app {
+    .pcr-interaction {
+      .pcr-save {
+        background: $red;;
+      }
+
+      .pcr-type.active {
+        color: $red;
+      }
+
+      .pcr-result {
+        &:focus {
+          border-color: $red;
+        }
+      }
+    }
+  }
+}
+
+.irs-bar {
+  background: $red;
+}
+
+.irs-slider {
+  background: $red;
+
+  &.state_hover, &:hover {
+    background: $red;
+  }
+}
+
+.irs-bar-edge {
+  background: $red;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: $light_10;
+
+  &:before, &:after {
+    display: none;
+  }
+
+  .drp-buttons .btn {
+    margin-left: 8px;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+
+  td {
+    &.active, &.active:hover {
+      background-color: $red;
+
+      &.available:hover {
+        background-color: $red;
+      }
+    }
+
+    &.in-range {
+      &.active, &.active:hover {
+        background-color: $red;
+      }
+    }
+  }
+
+  .ranges li {
+    &.active {
+      background-color: $red;
+    }
+  }
+}
+
+.hk-dash-type-1 {
+  .card-header {
+    .nav.nav-tabs {
+      > a.nav-item {
+        &.active {
+          .display-4 {
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    &.active, &:active {
+      background-color: $red;
+    }
+  }
+}
+
+.avatar {
+  .avatar-text {
+    color: $red;
+  }
+}
+
+.pagination {
+  .page-item {
+    &.active {
+      .page-link {
+        background: $red;
+        border-color: $red;
+      }
+    }
+  }
+}
+
+.list-group-item {
+  &.active {
+    background-color: $red;
+    border-color: $red;
+  }
+}
+
+.jvectormap-goback {
+  background: $red;
+}
+
+.chatapp-wrap {
+  .chatapp-right {
+    .chat-body {
+      .media {
+        &.sent {
+          .media-body {
+            .msg-box {
+              > div {
+                background: $red;
+
+                .arrow-triangle-wrap {
+                  .arrow-triangle {
+                    background-color: $red;
+
+                    &:before, &:after {
+                      background-color: $red;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Email UI*/
+.emailapp-wrap {
+  .email-box {
+    .email-star {
+      &:hover {
+        color: $red;
+
+        > .feather-icon {
+          > svg {
+            fill: $red !important;
+
+            polygon {
+              fill: $red !important;
+            }
+          }
+        }
+      }
+
+      &.starred {
+        color: $red;
+
+        > .feather-icon {
+          > svg {
+            fill: $red !important;
+
+            polygon {
+              fill: $red !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.calendarapp-wrap {
+  .calendar-wrap {
+    .fc-event {
+      border: 1px solid $red;
+    }
+
+    .fc-event,
+    .fc-event-dot {
+      background: $red;
+    }
+  }
+}
+
+.hk-pg-wrapper {
+  &.hk-auth-wrapper {
+    background: $red;
+  }
+}
+/*************************************************************/
+/*Nav*/
+.nav {
+  &.nav-tabs {
+    .nav-link {
+      &.active {
+        border-color: $red;
+
+        &:hover, &:focus {
+          border-color: $red;
+        }
+      }
+    }
+
+    .nav-item.show .nav-link {
+      border-color: $red;
+    }
+  }
+
+  &.nav-pills {
+    .nav-link {
+      &.active {
+        background-color: $red;
+
+        &:hover, &:focus {
+        }
+      }
+
+      &:hover, &:focus {
+      }
+    }
+
+    .nav-item.show .nav-link {
+      background-color: $red;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo {
+    .input-group {
+      width: auto;
+      margin-bottom: .5rem;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        padding-right: 1rem;
+      }
+
+      .dropdown-menu {
+        position: absolute;
+      }
+    }
+  }
+}
+/*Top Nav*/
+.hk-wrapper {
+  .hk-navbar {
+    &.navbar-dark {
+      background: $red;
+    }
+  }
+}
+.hk-wrapper {
+  .hk-settings-panel {
+    .settings-panel-wrap {
+      .layout-img-wrap {
+        a {
+          i {
+            background: $red;
+          }
+        }
+      }
+    }
+  }
+}

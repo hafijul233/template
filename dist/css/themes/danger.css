@@ -1,0 +1,269 @@
+/*__________________________________________________________________;
+[Colors]
+Project:	dashgrin
+___________________________________________________________________*/
+a {
+  color: #f83f37;
+}
+a:hover {
+  color: #f83f37;
+}
+a:focus {
+  color: #f83f37;
+}
+
+p.lead {
+  color: #f83f37;
+}
+
+.blockquote {
+  border-left: 3px solid #f83f37;
+}
+
+code {
+  color: #f83f37;
+}
+
+.btn.btn-icon-style-3::before {
+  background: #f83f37;
+}
+.btn.btn-icon-style-4:hover {
+  color: #f83f37;
+}
+
+.form-control:focus {
+  border-color: #f83f37;
+}
+
+.select2-container--default .select2-selection--single:focus,
+.select2-container--default .select2-selection--multiple:focus {
+  border-color: #f83f37;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: solid #f83f37 2px;
+}
+.select2-container--default.select2-container--open .select2-selection--single {
+  border-color: #f83f37;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #f83f37;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #f83f37;
+}
+
+.tinymce-wrap .mce-btn.mce-active button i,
+.tinymce-wrap .mce-btn:active button i {
+  color: #f83f37 !important;
+}
+.tinymce-wrap .mce-btn.mce-active button, .tinymce-wrap .mce-btn.mce-active:hover button, .tinymce-wrap .mce-btn.mce-active i, .tinymce-wrap .mce-btn.mce-active:hover i {
+  color: #f83f37;
+}
+
+.dropify-wrapper .dropify-message span.file-icon {
+  background: #f83f37;
+}
+
+.toggle .toggle-on, .toggle .toggle-select .toggle-inner .active {
+  background: #f83f37;
+}
+.toggle .toggle-on.active + .toggle-blob {
+  border-color: #f83f37;
+}
+
+.wizard .wizard-icon-wrap:before {
+  background: #f83f37;
+}
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+  background: #f83f37;
+  border: 2px solid #f83f37;
+}
+.wizard > .steps .done a .wizard-icon-wrap, .wizard > .steps .done a:hover .wizard-icon-wrap, .wizard > .steps .done a:active .wizard-icon-wrap {
+  background: #f83f37;
+}
+.wizard > .steps .done a .wizard-icon-wrap i, .wizard > .steps .done a:hover .wizard-icon-wrap i, .wizard > .steps .done a:active .wizard-icon-wrap i {
+  color: #fff;
+}
+
+.accordion .card .card-header > a {
+  background: #f83f37;
+}
+.accordion.accordion-type-2 .card .card-header > a {
+  color: #f83f37;
+}
+
+.tablesaw-bar .tablesaw-bar-section select:focus {
+  border-color: #f83f37;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #f83f37;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #f83f37;
+}
+
+.owl-carousel .owl-video-play-icon {
+  color: #f83f37;
+}
+
+.pickr .pcr-app .pcr-interaction .pcr-save {
+  background: #f83f37;
+}
+.pickr .pcr-app .pcr-interaction .pcr-type.active {
+  color: #f83f37;
+}
+.pickr .pcr-app .pcr-interaction .pcr-result:focus {
+  border-color: #f83f37;
+}
+
+.irs-bar {
+  background: #f83f37;
+}
+
+.irs-slider {
+  background: #f83f37;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+  background: #f83f37;
+}
+
+.irs-bar-edge {
+  background: #f83f37;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: #eaecec;
+}
+.daterangepicker:before, .daterangepicker:after {
+  display: none;
+}
+.daterangepicker .drp-buttons .btn {
+  margin-left: 8px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #f83f37;
+}
+.daterangepicker td.active.available:hover, .daterangepicker td.active:hover.available:hover {
+  background-color: #f83f37;
+}
+.daterangepicker td.in-range.active, .daterangepicker td.in-range.active:hover {
+  background-color: #f83f37;
+}
+.daterangepicker .ranges li.active {
+  background-color: #f83f37;
+}
+
+.hk-dash-type-1 .card-header .nav.nav-tabs > a.nav-item.active .display-4 {
+  color: #f83f37;
+}
+
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+  background-color: #f83f37;
+}
+
+.avatar .avatar-text {
+  color: #f83f37;
+}
+
+.pagination .page-item.active .page-link {
+  background: #f83f37;
+  border-color: #f83f37;
+}
+
+.list-group-item.active {
+  background-color: #f83f37;
+  border-color: #f83f37;
+}
+
+.jvectormap-goback {
+  background: #f83f37;
+}
+
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div {
+  background: #f83f37;
+}
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle {
+  background-color: #f83f37;
+}
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle:before, .chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle:after {
+  background-color: #f83f37;
+}
+
+/*Email UI*/
+.emailapp-wrap .email-box .email-star:hover {
+  color: #f83f37;
+}
+.emailapp-wrap .email-box .email-star:hover > .feather-icon > svg {
+  fill: #f83f37 !important;
+}
+.emailapp-wrap .email-box .email-star:hover > .feather-icon > svg polygon {
+  fill: #f83f37 !important;
+}
+.emailapp-wrap .email-box .email-star.starred {
+  color: #f83f37;
+}
+.emailapp-wrap .email-box .email-star.starred > .feather-icon > svg {
+  fill: #f83f37 !important;
+}
+.emailapp-wrap .email-box .email-star.starred > .feather-icon > svg polygon {
+  fill: #f83f37 !important;
+}
+
+.calendarapp-wrap .calendar-wrap .fc-event {
+  border: 1px solid #f83f37;
+}
+.calendarapp-wrap .calendar-wrap .fc-event,
+.calendarapp-wrap .calendar-wrap .fc-event-dot {
+  background: #f83f37;
+}
+
+.hk-pg-wrapper.hk-auth-wrapper {
+  background: #f83f37;
+}
+
+/*************************************************************/
+/*Nav*/
+.nav.nav-tabs .nav-link.active {
+  border-color: #f83f37;
+}
+.nav.nav-tabs .nav-link.active:hover, .nav.nav-tabs .nav-link.active:focus {
+  border-color: #f83f37;
+}
+.nav.nav-tabs .nav-item.show .nav-link {
+  border-color: #f83f37;
+}
+.nav.nav-pills .nav-link.active {
+  background-color: #f83f37;
+}
+.nav.nav-pills .nav-item.show .nav-link {
+  background-color: #f83f37;
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo .input-group {
+    width: auto;
+    margin-bottom: 0.5rem;
+  }
+  .navbar-demo .navbar-nav .nav-link {
+    padding-right: 1rem;
+  }
+  .navbar-demo .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+}
+/*Top Nav*/
+.hk-wrapper .hk-navbar.navbar-dark {
+  background: #f83f37;
+}
+
+.hk-wrapper .hk-settings-panel .settings-panel-wrap .layout-img-wrap a i {
+  background: #f83f37;
+}
+
+/*# sourceMappingURL=danger.css.map */

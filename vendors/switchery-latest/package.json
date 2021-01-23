@@ -1,0 +1,52 @@
+{
+  "_from": "switchery-latest",
+  "_id": "switchery-latest@0.8.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Dams2HXv3yz2KrIcVEly0Ry6oYV+g3r+ygNNFmSLVPM1lPOFZydv0Us9+bX5F3DUzSvdF1rCszcW6EvOaGCCBw==",
+  "_location": "/switchery-latest",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "switchery-latest",
+    "name": "switchery-latest",
+    "escapedName": "switchery-latest",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/switchery-latest/-/switchery-latest-0.8.2.tgz",
+  "_shasum": "a3c2530597114b8120590714c7ea5efbd025b0fc",
+  "_spec": "switchery-latest",
+  "_where": "I:\\XAMPP\\htdocs\\dashgrintemplate-10",
+  "author": {
+    "name": "Luiz Reginaldo",
+    "email": "contato@luizreginaldo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/luizreginaldo/switchery/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Create iOS 7 styled switches from default input checkboxes",
+  "devDependencies": {
+    "component": "^1.0.0",
+    "grunt-exec": "latest",
+    "spacejam": "latest",
+    "uglify-js": "~2.4.8",
+    "uglifycss": "0.0.7"
+  },
+  "homepage": "https://github.com/luizreginaldo/switchery#readme",
+  "license": "MIT",
+  "main": "dist/switchery.js",
+  "name": "switchery-latest",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luizreginaldo/switchery.git"
+  },
+  "version": "0.8.2"
+}

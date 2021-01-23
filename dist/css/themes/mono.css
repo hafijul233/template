@@ -1,0 +1,267 @@
+/*__________________________________________________________________;
+[Colors]
+Project:	dashgrin
+___________________________________________________________________*/
+a {
+  color: #9e9e9e;
+}
+a:hover {
+  color: #9e9e9e;
+}
+a:focus {
+  color: #9e9e9e;
+}
+
+p.lead {
+  color: #9e9e9e;
+}
+
+.blockquote {
+  border-left: 3px solid #9e9e9e;
+}
+
+code {
+  color: #9e9e9e;
+}
+
+.btn.btn-icon-style-3::before {
+  background: #9e9e9e;
+}
+.btn.btn-icon-style-4:hover {
+  color: #9e9e9e;
+}
+
+.form-control:focus {
+  border-color: #9e9e9e;
+}
+
+.select2-container--default .select2-selection--single:focus,
+.select2-container--default .select2-selection--multiple:focus {
+  border-color: #9e9e9e;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: solid #9e9e9e 2px;
+}
+.select2-container--default.select2-container--open .select2-selection--single {
+  border-color: #9e9e9e;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #9e9e9e;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #9e9e9e;
+}
+
+.tinymce-wrap .mce-btn.mce-active button i,
+.tinymce-wrap .mce-btn:active button i {
+  color: #9e9e9e !important;
+}
+.tinymce-wrap .mce-btn.mce-active button, .tinymce-wrap .mce-btn.mce-active:hover button, .tinymce-wrap .mce-btn.mce-active i, .tinymce-wrap .mce-btn.mce-active:hover i {
+  color: #9e9e9e;
+}
+
+.dropify-wrapper .dropify-message span.file-icon {
+  background: #9e9e9e;
+}
+
+.toggle .toggle-on, .toggle .toggle-select .toggle-inner .active {
+  background: #9e9e9e;
+}
+.toggle .toggle-on.active + .toggle-blob {
+  border-color: #9e9e9e;
+}
+
+.wizard .wizard-icon-wrap:before {
+  background: #9e9e9e;
+}
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+  background: #9e9e9e;
+  border: 2px solid #9e9e9e;
+}
+.wizard > .steps .done a .wizard-icon-wrap, .wizard > .steps .done a:hover .wizard-icon-wrap, .wizard > .steps .done a:active .wizard-icon-wrap {
+  background: #9e9e9e;
+}
+.wizard > .steps .done a .wizard-icon-wrap i, .wizard > .steps .done a:hover .wizard-icon-wrap i, .wizard > .steps .done a:active .wizard-icon-wrap i {
+  color: #fff;
+}
+
+.accordion .card .card-header > a {
+  background: #9e9e9e;
+}
+.accordion.accordion-type-2 .card .card-header > a {
+  color: #9e9e9e;
+}
+
+.tablesaw-bar .tablesaw-bar-section select:focus {
+  border-color: #9e9e9e;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #9e9e9e;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #9e9e9e;
+}
+
+.owl-carousel .owl-video-play-icon {
+  color: #9e9e9e;
+}
+
+.pickr .pcr-app .pcr-interaction .pcr-save {
+  background: #9e9e9e;
+}
+.pickr .pcr-app .pcr-interaction .pcr-type.active {
+  color: #9e9e9e;
+}
+.pickr .pcr-app .pcr-interaction .pcr-result:focus {
+  border-color: #9e9e9e;
+}
+
+.irs-bar {
+  background: #9e9e9e;
+}
+
+.irs-slider {
+  background: #9e9e9e;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+  background: #9e9e9e;
+}
+
+.irs-bar-edge {
+  background: #9e9e9e;
+}
+
+.daterangepicker {
+  font-family: inherit;
+  border-color: #eaecec;
+}
+.daterangepicker:before, .daterangepicker:after {
+  display: none;
+}
+.daterangepicker .drp-buttons .btn {
+  margin-left: 8px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #9e9e9e;
+}
+.daterangepicker td.active.available:hover, .daterangepicker td.active:hover.available:hover {
+  background-color: #9e9e9e;
+}
+.daterangepicker td.in-range.active, .daterangepicker td.in-range.active:hover {
+  background-color: #9e9e9e;
+}
+.daterangepicker .ranges li.active {
+  background-color: #9e9e9e;
+}
+
+.hk-dash-type-1 .card-header .nav.nav-tabs > a.nav-item.active .display-4 {
+  color: #9e9e9e;
+}
+
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+  background-color: #9e9e9e;
+}
+
+.avatar .avatar-text {
+  color: #9e9e9e;
+}
+
+.pagination .page-item.active .page-link {
+  background: #9e9e9e;
+  border-color: #9e9e9e;
+}
+
+.list-group-item.active {
+  background-color: #9e9e9e;
+  border-color: #9e9e9e;
+}
+
+.jvectormap-goback {
+  background: #9e9e9e;
+}
+
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div {
+  background: #9e9e9e;
+}
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle {
+  background-color: #9e9e9e;
+}
+.chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle:before, .chatapp-wrap .chatapp-right .chat-body .media.sent .media-body .msg-box > div .arrow-triangle-wrap .arrow-triangle:after {
+  background-color: #9e9e9e;
+}
+
+/*Email UI*/
+.emailapp-wrap .email-box .email-star:hover {
+  color: #9e9e9e;
+}
+.emailapp-wrap .email-box .email-star:hover > .feather-icon > svg {
+  fill: #9e9e9e !important;
+}
+.emailapp-wrap .email-box .email-star:hover > .feather-icon > svg polygon {
+  fill: #9e9e9e !important;
+}
+.emailapp-wrap .email-box .email-star.starred {
+  color: #9e9e9e;
+}
+.emailapp-wrap .email-box .email-star.starred > .feather-icon > svg {
+  fill: #9e9e9e !important;
+}
+.emailapp-wrap .email-box .email-star.starred > .feather-icon > svg polygon {
+  fill: #9e9e9e !important;
+}
+
+.calendarapp-wrap .calendar-wrap .fc-event {
+  border: 1px solid #9e9e9e;
+}
+.calendarapp-wrap .calendar-wrap .fc-event,
+.calendarapp-wrap .calendar-wrap .fc-event-dot {
+  background: #9e9e9e;
+}
+
+.hk-pg-wrapper.hk-auth-wrapper {
+  background: #9e9e9e;
+}
+
+/*Nav*/
+.nav.nav-tabs .nav-link.active {
+  border-color: #9e9e9e;
+}
+.nav.nav-tabs .nav-link.active:hover, .nav.nav-tabs .nav-link.active:focus {
+  border-color: #9e9e9e;
+}
+.nav.nav-tabs .nav-item.show .nav-link {
+  border-color: #9e9e9e;
+}
+.nav.nav-pills .nav-link.active {
+  background-color: #9e9e9e;
+}
+.nav.nav-pills .nav-item.show .nav-link {
+  background-color: #9e9e9e;
+}
+
+@media (max-width: 1199px) {
+  .navbar-demo .input-group {
+    width: auto;
+    margin-bottom: 0.5rem;
+  }
+  .navbar-demo .navbar-nav .nav-link {
+    padding-right: 1rem;
+  }
+  .navbar-demo .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+}
+/*Top Nav*/
+.hk-wrapper .hk-navbar.navbar-dark {
+  background: #9e9e9e;
+}
+.hk-wrapper .hk-settings-panel .settings-panel-wrap .layout-img-wrap a i {
+  background: #9e9e9e;
+}
+
+/*# sourceMappingURL=mono.css.map */
